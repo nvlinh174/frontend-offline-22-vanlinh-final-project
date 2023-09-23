@@ -1,0 +1,66 @@
+/*---------------------------
+ CSS Index  
+****************************
+
+1. variables
+2. typography
+3. spacing
+4. reset
+5. forms
+6. mixins
+7. shortcode
+8. common
+9. animations
+10. text-animation
+11. sal animation
+
+
+
+
+/* Default  */
+
+@import'default/variables';
+@import'default/typography';
+@import'default/spacing';
+@import'default/reset';
+@import'default/forms';
+@import'default/mixins';
+@import'default/shortcode';
+@import'default/common';
+@import'default/animations';
+@import'default/text-animation';
+@import'default/sal';
+
+
+
+/* Header area style  */
+@import'elements/header';
+
+/* Dark area style  */
+@import'elements/dark';
+
+/* Hero area style */
+@import'elements/blog/blog';
+
+/* Benar area style */
+@import'elements/banner';
+
+/* Contact Form */
+@import'elements/contact';
+
+/* Footer area style */
+@import'elements/footer';
+
+/* Responsive area style */
+@import'elements/responsive';
+
+/* Responsive area style */
+@import'elements/responsive-2';
+
+/* 404 Area Style */
+@import 'elements/404';
+
+
+
+
+

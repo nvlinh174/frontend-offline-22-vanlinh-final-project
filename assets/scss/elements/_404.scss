@@ -1,0 +1,52 @@
+.echo-404-page{
+    height: 100vh;
+    .echo-404-area{
+        position: relative;
+        top:50%;
+        transform: translateY(-50%);
+        text-align: center;
+        .echo-container{
+            .echo-error-content{
+                .echo-error{
+                        h1{
+                            font-size: 256px;
+                            font-weight: 700;
+                            line-height: 90px;
+                            color: #5E5E5E;
+                        }
+                    }
+                    .echo-error-sub-heading{
+                        margin-top: 125px;
+                        h3{
+                            font-size: 50px;
+                            line-height: 60px;
+                            text-transform: capitalize;
+                        }
+                    }
+                    .echo-error-pera{
+                        margin-bottom: 30px;
+                        p{
+                            font-size: 16px;
+                            line-height: 24px;
+                        }
+                    }
+                    .error-btn{
+                        margin-top: 50px;
+                        a{
+                            border: 1px solid transparent;
+                            padding: 12px 16px;
+                            transition: all 0.3s;
+                            color: #fff;
+                            font-size: 14px;
+                            background-color: var(--color-primary);
+                            &:hover{
+                                border: 1px solid #5E5E5E;
+                                background-color: transparent;
+                                color: #5E5E5E;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }

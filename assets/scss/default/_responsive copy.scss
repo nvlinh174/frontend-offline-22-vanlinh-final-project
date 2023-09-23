@@ -1,0 +1,13 @@
+/*=========================
+    Responsive
+==========================*/
+
+@media(max-width:1200px){
+    .echo-header-top-subs-social-menu{
+        justify-content: end !important;
+        .echo-header-top-subs-social{
+            margin-right: 45px;
+            gap: 20px !important;
+        } 
+    }
+}

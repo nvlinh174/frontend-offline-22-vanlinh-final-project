@@ -1,0 +1,59 @@
+/*=========================
+    Responsive-2
+==========================*/
+
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    // START HERO AREA
+    .echo-hero-section .echo-hero-baner h1{
+        line-height: 55px !important;
+        font-size: 45px !important;
+    }
+    .echo-hero-section .echo-hero-baner p {
+        margin-bottom: 22px !important;
+        font-size: 15px !important;
+    }
+    .echo-home-1-hero-area-top-story .echo-top-story {
+        align-items: center;
+    }
+    .echo-home-1-hero-area-top-story .echo-top-story .echo-story-text h4 {
+        font-size: 20px !important;
+        line-height: 30px !important;
+    }
+    .echo-home-1-hero-area-top-story .echo-top-story {
+        margin: 12px 0 !important;
+    }
+    .echo-home-1-hero-area-top-story .echo-top-story:last-child{
+        margin-bottom: 0;
+    }
+    // END HERO AREA
+}
+
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+}
+
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+
+
+}
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+
+}

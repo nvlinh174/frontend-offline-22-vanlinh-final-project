@@ -1,0 +1,70 @@
+// **************************************** =========== Start Home Page (1) Our Software Download Area  ===========  ****************************************//
+.echo-software-download-area{
+    padding-top: 90px;
+    padding-bottom: 75px;
+    .echo-software-download-full-content-bg{
+        background-color: #537FE7;
+        padding: 80px 150px;
+        overflow: hidden;
+        .echo-software-download-full-content{
+            display: flex;
+            position: relative;
+            .echo-software-download-text-content{
+                // flex-basis: 30%;
+                .echo-software-download-title{
+                h2{
+                    font-size: 40px;
+                    line-height: 50px;
+                    color: #fff;
+                }
+        }
+        .echo-software-download-sub-title{
+            p{
+                color: #fff;
+                font-size: 16px;
+                line-height: 26px;
+                font-weight: 400;
+            }
+        }
+        .echo-software-download-place{
+            display: flex;
+            gap: 25px;
+            margin-top: 32px;
+            a{
+                border: 1px solid #fff;
+                padding: 20px 55px;
+                color: #fff;
+                position: relative;
+                font-family:'Bona Nova', serif;
+                font-size: 16px;
+                font-weight: 700;
+                svg{
+                    margin-right: 8px;
+                }
+            }
+        }
+            }
+        .echo-software-download-img-content{
+            position: absolute;
+            top: -85px;
+            right: -80px;
+            transition: all 0.4s;
+            &:hover img{
+                transform: scale(1.1);
+            }
+            img{
+                width: 100%;
+                transform: scale(1);
+                transition: all 0.4s;
+            }
+        }
+        }
+    }
+}
+
+
+
+
+
+
+// **************************************** =========== End Home Page (1) Our Software Download Area  ===========  ****************************************//
